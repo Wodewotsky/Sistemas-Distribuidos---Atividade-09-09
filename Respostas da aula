@@ -1,0 +1,5 @@
+O servidor permanece funcionando?
+- Sim, ele não fecha no fim do código.
+
+Quantos clientes podem enviar mensagens para ele?
+- Até onde testei, não parece ter um limite, o servidor continua aberto e continua recebendo mensagens
