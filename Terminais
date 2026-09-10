@@ -1,0 +1,51 @@
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python servidor_udp.py
+Servidor UDP aguardando mensagens...
+Cliente: ('127.0.0.1', 59187)
+Mensagem Recebida: Salve!
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python servidor_udp.py
+Servidor UDP aguardando mensagens...
+Cliente: ('127.0.0.1', 59255)
+Mensagem Recebida: bom
+Cliente: ('127.0.0.1', 54634)
+Mensagem Recebida: dia
+Cliente: ('127.0.0.1', 61764)
+Mensagem Recebida: como
+Cliente: ('127.0.0.1', 57389)
+Mensagem Recebida: vai?
+Cliente: ('127.0.0.1', 56471)
+Mensagem Recebida: salve gian
+Cliente: ('127.0.0.1', 62313)
+Mensagem Recebida: blz
+
+
+
+
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: Salve!
+Resposta do Servidor:
+Mensagem recebida com sucesso!
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: bom
+Resposta do Servidor:
+Servidor recebeu: bom
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: dia
+Resposta do Servidor:
+Servidor recebeu: dia
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: como
+Resposta do Servidor:
+Servidor recebeu: como
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: vai?
+Resposta do Servidor:
+Servidor recebeu: vai?
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: salve gian
+Resposta do Servidor:
+Servidor recebeu: salve gian
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> python cliente_udp.py
+Digite sua mensagem: blz
+Resposta do Servidor:
+Servidor recebeu: blz
+PS C:\Felipe\Sistemas Distribuidos - Simone\aula3_udp> 
